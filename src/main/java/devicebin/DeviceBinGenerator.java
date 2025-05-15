@@ -72,7 +72,7 @@ public class DeviceBinGenerator {
                         "Enter the input to select the device repository path to proceed (0 or 1 or 2):",
                         menuOption);
                     
-                    sendResponse(stdin, "1");
+                    sendResponse(stdin, "2");
                     Thread.sleep(2000);
                     
                     waitForPrompt(stdout,"Enter the product id to proceed (0,1,2,3,4,5):");
